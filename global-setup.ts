@@ -44,7 +44,6 @@ async function globalSetup(config: FullConfig) {
   } else {
     console.log(`[setup] Session saved — ${saved.cookies.length} cookies, ${saved.origins.length} origins`);
   }
-
   await browser.close();
 }
 
